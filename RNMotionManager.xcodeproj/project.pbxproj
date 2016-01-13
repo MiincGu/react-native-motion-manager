@@ -87,8 +87,8 @@
 		BB9CC7EF1AE0A2EB008A1D08 /* RNMotionManager */ = {
 			isa = PBXGroup;
 			children = (
-				BB9CC8071AE0A5FE008A1D08 /* Gyroscope.m */,
 				BB9CC8091AE0A614008A1D08 /* Gyroscope.h */,
+				BB9CC8071AE0A5FE008A1D08 /* Gyroscope.m */,
 				BB9CC80A1AE0A707008A1D08 /* Accelerometer.h */,
 				BB9CC80B1AE0A707008A1D08 /* Accelerometer.m */,
 				BB9CC80C1AE0A707008A1D08 /* Magnetometer.h */,
