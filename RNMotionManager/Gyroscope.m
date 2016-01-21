@@ -73,7 +73,6 @@ RCT_EXPORT_METHOD(startGyroUpdates) {
          double x = gyroData.rotationRate.x;
          double y = gyroData.rotationRate.y;
          double z = gyroData.rotationRate.z;
-         NSLog(@"startGyroUpdates: %f, %f, %f", x, y, z);
          
          [self.bridge.eventDispatcher sendDeviceEventWithName:@"GyroData" body:@{
                                                                                  @"rotationRate": @{
