@@ -22,18 +22,14 @@ RCT_EXPORT_MODULE();
     //Accelerometer
     if([self->_motionManager isAccelerometerAvailable])
     {
-      NSLog(@"Accelerometer available");
       /* Start the accelerometer if it is not active already */
       if([self->_motionManager isAccelerometerActive] == NO)
       {
-        NSLog(@"Accelerometer active");
       } else {
-        NSLog(@"Accelerometer not active");
       }
     }
     else
     {
-      NSLog(@"Accelerometer not Available!");
     }
   }
   return self;

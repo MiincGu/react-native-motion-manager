@@ -22,18 +22,14 @@ RCT_EXPORT_MODULE();
         //Gyroscope
         if([self->_motionManager isGyroAvailable])
         {
-            NSLog(@"Gyroscope available");
             /* Start the gyroscope if it is not active already */
             if([self->_motionManager isGyroActive] == NO)
             {
-                NSLog(@"Gyroscope active");
             } else {
-                NSLog(@"Gyroscope not active");
             }
         }
         else
         {
-            NSLog(@"Gyroscope not Available!");
         }
     }
     return self;
